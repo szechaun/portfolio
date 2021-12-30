@@ -63,8 +63,9 @@ h3 {
 
 img {
     max-width: 100%;
-
-
+}
+.banner {
+    width: 100%;
 }
 
 .crop {
