@@ -170,14 +170,13 @@ a {
 
 @media only screen and (min-width: 780px) {
     .wave {
-        top: -5vh;
         width: 125vw;
     }
 }
 
 @media only screen and (min-width:1200px) {
     .wave {
-        top: -20vh
+        height: 15%;
     }
 }
 
