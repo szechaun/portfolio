@@ -154,6 +154,7 @@ a {
 }
 
 .wave {
+    height: 15vh;
     position: absolute;
     right: 0;
     top: 0;
