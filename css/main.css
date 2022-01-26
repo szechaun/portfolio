@@ -411,10 +411,13 @@ li {
 }
 
 .gradient:first-of-type {
-  background: linear-gradient(rgba(143, 148, 251, 0.7), #ef93ec);
+  background: linear-gradient(#296ad3, #00c6fb);
 }
 
 .gradient:nth-of-type(2) {
+  background: linear-gradient(rgba(115, 121, 233, 0.7), #f1a3ef);
+}
+.gradient:nth-of-type(3) {
   background: linear-gradient(
     rgba(241, 54, 79, 0.9),
     rgba(230, 98, 142, 0.746)
