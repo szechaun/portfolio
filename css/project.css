@@ -52,6 +52,10 @@ body {
    
 }
 
+.styleguide-header {
+    color: white !important;
+}
+
 h1,
 h2,
 h3 {
@@ -80,6 +84,17 @@ img {
 
     background-attachment: fixed;
     background-position: bottom center;
+}
+.sickfits-header{
+    background-image: url(../img/sickfitsscreenshot.png);
+    height: 50%;
+    overflow: hidden;
+
+    background-attachment: fixed;
+    background-position: bottom center;
+}
+.sickfits-header-title{
+    color: #fc0113 !important;
 }
 
 
@@ -332,6 +347,46 @@ ul {
 
     text-shadow: 0 1px 1px rgba(0, 0, 0, .15);
     width: 100%;
+}
+
+.styleguide-project-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem; 
+    margin-bottom: 2rem; 
+}
+
+
+.styleguide-1half {
+    flex-basis: 48%;
+    background-color: #4aa8e6;
+    color: white; 
+}
+
+.styleguide-1third {
+    flex-basis: 31%;
+    background-color: #b6b0fa; 
+    color: white; 
+}
+
+
+.styleguide-2third {
+    flex-basis: 65%;
+    background-color: #f14f67; 
+    color: white; 
+}
+
+
+.styleguide-project-grid div {
+    padding: 1rem;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.style-flexbox {
+    margin-bottom: 3rem; 
 }
 
 

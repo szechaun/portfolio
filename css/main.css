@@ -147,48 +147,40 @@ a {
   right: 0;
   top: 0;
   width: 200vw;
+  height: auto; /* Ensure the height is auto */
   z-index: -1;
+  max-height: 100vh; /* Limit the height to the view height */
+  object-fit: cover; /* Ensures the image covers the area properly */
 }
 
-/* @media only screen and (min-width: 990px) {
-    .wave {
-        width: 100vw;
-    }
-
-} */
-
+/* Adjustments for different screen sizes */
 @media only screen and (min-width: 780px) {
   .wave {
     width: 125vw;
+    max-height: 90vh; /* Adjust the max-height as needed */
   }
 }
 
 @media only screen and (min-width: 1200px) {
   .wave {
     top: -5vh;
-  }
-}
-@media only screen and (min-width: 1600px) {
-  .wave {
-    top: -10vh;
-  }
-}
-@media only screen and (min-width: 2000px) {
-  .wave {
-    top: -15vh;
-  }
-}
-@media only screen and (min-width: 2400px) {
-  .wave {
-    height: 30%;
+    max-height: 85vh; /* Prevents excessive height stretching */
   }
 }
 
-/* @media only screen and (min-width:1800px) {
-    .wave {
-        top: -20vh
-    }
-} */
+@media only screen and (min-width: 1600px) {
+  .wave {
+    top: -10vh;
+    max-height: 80vh; /* Further limits the height on large screens */
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .wave {
+    top: -20vh;
+    max-height: 75vh; /* Keep the height within a reasonable range */
+  }
+}
 
 .name {
   color: #fff;
@@ -417,7 +409,14 @@ li {
 .gradient:nth-of-type(2) {
   background: linear-gradient(rgba(115, 121, 233, 0.7), #f1a3ef);
 }
+
 .gradient:nth-of-type(3) {
+  background: linear-gradient(
+    rgba(255, 165, 52, 0.9), 
+    rgba(255, 224, 147, 0.8)
+    );
+}
+.gradient:nth-of-type(4) {
   background: linear-gradient(
     rgba(241, 54, 79, 0.9),
     rgba(230, 98, 142, 0.746)

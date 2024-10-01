@@ -1,0 +1,113 @@
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/project.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,900"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <title>Sick Fits</title>
+  </head>
+
+  <body>
+    <div class="sickfits-header">
+      <div class="header-title">
+        <h1 class="sickfits-header-title">Sick Fits</h1>
+      </div>
+    </div>
+
+    <div class="project-text">
+      <section class="container-70">
+        <h2>The Project</h2>
+        <span class="dash"> </span>
+        <div>
+          <p class="text-cell">
+            Sick Fits is a full-stack online clothing store that allows users to search, sell, add to cart, and checkout their favorite items. Built using React, Next.js, and styled components, the application integrates Apollo Client for GraphQL queries and mutations, and Keystone.js to manage data via an admin interface. The project consists of six main relational models: Users, Items, Orders, CartItems, OrderItems, and Roles, which are tightly connected through GraphQL.
+          </p>
+          <hr />
+          <div class="element-container">
+            <div class="element-block">
+              <h3>Tools</h3>
+              <p>React, Next.js, Styled Components, Apollo Client, Keystone.js</p>
+            </div>
+            <div class="element-block">
+              <h3>Skills</h3>
+              <p>Full-Stack Development, GraphQL, UI/UX Design</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="main-content">
+      <section class="content">
+        <div class="flex-1third side-padding">
+          <h2>The Process</h2>
+          <span class="dash"> </span>
+          <h3>Back-End Development</h3>
+          <p>
+            I set up the GraphQL schema and Keystone.js admin interface to handle relational data, defining relationships between users, products, and orders. 
+          </p>
+
+          <h3>Front-End Development</h3>
+          <p>
+            With the back-end structured, I moved on to building the front-end with React and Next.js. I chose Next.js for its server-side rendering capabilities to improve SEO and performance, ensuring a smooth and responsive user experience.
+          </p>
+        </div>
+        <div class="flex-2third side-padding">
+          <figure>
+            <img src="img/sickfitsdevelopment.jpg" alt="Sick Fits Screenshot" />
+            <figcaption>Screenshot of the Sick Fits development</figcaption>
+          </figure>
+        </div>
+        <div class="flex-1third side-padding">
+          <h2>The Pitfalls</h2>
+          <span class="dash"> </span>
+          <h3>Challenges & Solutions</h3>
+          <p>
+            One of the biggest challenges was optimizing GraphQL queries for the checkout process, as handling relational models efficiently led to performance bottlenecks. I optimized the Apollo Client caching mechanism using `refetchQueries` to ensure data consistency.
+          </p>
+        </div>
+        <div class="flex-2third side-padding">
+          <figure>
+            <img src="img/keystone.jpg" alt="Keystone Interface" />
+            <figcaption>Keystone data fields interface</figcaption>
+          </figure>
+        </div>
+      </section>
+    </div>
+
+    <div class="project-text">
+      <section class="container-70">
+        <h2>Iterations</h2>
+        <span class="dash"> </span>
+        <div>
+          <p class="text-cell">
+            The first version of Sick Fits focused on core functionality, such as user authentication and adding items to the cart. Later iterations involved refining the user interface and adding features like search filters and checkout options. During these iterations, I continuously tested the GraphQL schema to ensure it handled relational data properly and optimized API calls to improve performance, especially as more users interacted with the platform simultaneously.
+          </p>
+        </div>
+      </section>
+    </div>
+
+    <div class="project-text">
+      <section class="container-70">
+        <h2>Reflection</h2>
+        <span class="dash"> </span>
+        <div>
+          <p class="text-cell">
+            Building Sick Fits taught me a lot about managing relational data with GraphQL and working with modern web technologies like React and Next.js. If I were to improve the project, I would focus on better optimization for mobile users and explore using GraphQL subscriptions to handle real-time data updates more efficiently. Overall, the project has been a great learning experience in full-stack development.
+          </p>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

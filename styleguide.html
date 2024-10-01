@@ -1,3 +1,5 @@
+
+
 <!doctype html>
 <html lang="en">
 
@@ -9,19 +11,19 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800" rel="stylesheet" type="text/css">
-    <title>Savage Punch</title>
+    <title>Styleguide</title>
 </head>
 
 <body>
     <div class="project-header-background">
         <div class="header-title">
-            <h1>Styleguide</h1>
+            <h1 class="styleguide-header">Styleguide</h1>
         </div>
     </div>
     <div class="style-grid">
         <section class="style-content">
             <h3> Colors</h3>
-            <h4>Primary</h4>
+            <h4>Primary Colors</h4>
             <div class="style-3whole">
                 <div class="flex-1third style-panel">
                     <div class="style-border">
@@ -32,7 +34,6 @@
                             <li>rgb(74,168,230)</li>
                         </ul>
                     </div>
-
                 </div>
                 <div class="flex-1third style-panel">
                     <div class="style-border">
@@ -43,7 +44,6 @@
                             <li>rgb(182,176,250)</li>
                         </ul>
                     </div>
-
                 </div>
                 <div class="flex-1third style-panel">
                     <div class="style-border">
@@ -54,108 +54,138 @@
                             <li>rgb(241,79,103)</li>
                         </ul>
                     </div>
-
                 </div>
             </div>
 
-        </section>
-        <hr>
-        <div class="style-flexbox">
-            <h3>Grids</h3>
-            <div class="project-grid">
-                <div class="project-1half">grid 1/2</div>
-                <div class="project-1half">grid 1/2</div>
+            <h4>Gradients</h4>
+            <div class="style-3whole">
+                <div class="flex-1third style-panel">
+                    <div class="style-border">
+                        <div class="color-preview" style="background: linear-gradient(#296ad3, #00c6fb); height: 3rem;"></div>
+                        <ul>
+                            <li>Gradient 1</li>
+                            <li>#296ad3 → #00c6fb</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="flex-1third style-panel">
+                    <div class="style-border">
+                        <div class="color-preview" style="background: linear-gradient(rgba(115, 121, 233, 0.7), #f1a3ef); height: 3rem;"></div>
+                        <ul>
+                            <li>Gradient 2</li>
+                            <li>#7379e9 (70%) → #f1a3ef</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="flex-1third style-panel">
+                    <div class="style-border">
+                        <div class="color-preview" style="background: linear-gradient(rgba(255, 165, 52, 0.9), rgba(255, 224, 147, 0.8)); height: 3rem;"></div>
+                        <ul>
+                            <li>Gradient 3</li>
+                            <li>rgba(255, 165, 52, 0.9) → rgba(255, 224, 147, 0.8)</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <ul class="list">
-                <li class="list-items">120px</li>
-                <li class="list-items">120px</li>
-                <li class="list-items">120px</li>
-                <li class="list-items">120px</li>
-            </ul>
-        </div>
+        </section>
+
         <hr>
+
         <div>
-            <h3>Fonts</h3>
+            <h3>Typography</h3>
             <table>
                 <tr>
                     <th>Element</th>
                     <th>Font</th>
+                    <th>Example</th>
                 </tr>
                 <tr>
                     <td>Title</td>
-                    <td id="Lato">Gloria Hallelujah</td>
+                    <td>"Lato", sans-serif</td>
+                    <td><h1 style="font-family: 'Lato', sans-serif;">This is a Title</h1></td>
                 </tr>
                 <tr>
                     <td>Body</td>
-                    <td id="OpenSans">Open Sans</td>
+                    <td>"Open Sans", sans-serif</td>
+                    <td><p style="font-family: 'Open Sans', sans-serif;">This is some body text.</p></td>
                 </tr>
                 <tr>
                     <td>Navigation</td>
-                    <td id="Roberto">Roberto</td>
+                    <td>"Roboto", sans-serif</td>
+                    <td><p style="font-family: 'Roboto', sans-serif;">This is a navigation item.</p></td>
                 </tr>
-
             </table>
         </div>
+
         <hr>
+
         <div>
             <h3>Headings</h3>
-            <h1>H1 26px</h1>
-            <h2>H2 24px</h2>
-            <h3>H3 22</h3>
+            <h1 style="font-family: 'Lato', sans-serif;">H1 26px</h1>
+            <h2 style="font-family: 'Lato', sans-serif;">H2 24px</h2>
+            <h3 style="font-family: 'Lato', sans-serif;">H3 22px</h3>
         </div>
+
         <hr>
+
+        <div>
+            <h3>Buttons</h3>
+            <button style="padding: 0.5rem 1rem; background-color: #09f; border: none; color: white; font-family: 'Roboto', sans-serif; border-radius: 4px;">Primary Button</button>
+        </div>
+
+        <hr>
+
         <div>
             <h3>Paragraphs</h3>
-            <h4>Project Intro</h4>
-            <p class="container-70">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-                lacinia arcu purus, non sodales arcu congue ac. Ut sit amet leo mauris. Nam non lectus lacinia, aliquet
-                odio vitae, ultricies ex. Pellentesque tempus dui ut mauris aliquet, at eleifend quam congue. Sed
-                blandit pretium lorem, id semper magna accumsan id. Pellentesque vel placerat arcu, id bibendum risus.
-                Duis laoreet laoreet urna varius rutrum. Morbi sit amet augue est. Vestibulum quis nibh nec dui vehicula
-                volutpat. Integer convallis nisl eu eros luctus, eu rutrum felis ultricies. Phasellus vitae mattis
-                risus. Cras maximus magna non elit ultrices iaculis. Vestibulum auctor posuere sem, sodales scelerisque
-                est varius in.</p>
+            <p style="font-family: 'Open Sans', sans-serif;">This is a sample paragraph demonstrating the body text style. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque lacinia arcu purus, non sodales arcu congue ac. Ut sit amet leo mauris.</p>
         </div>
-        <h4>Project Process/Problem</h4>
-        <div class="style-main-content">
-            <section class="content">
-                <div class="flex-1third side-padding">
-                    <p>Open SansLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-                        lacinia arcu purus, non sodales arcu congue ac. Ut sit amet leo mauris. Nam non lectus lacinia,
-                        aliquet odio vitae, ultricies ex. Pellentesque tempus dui ut mauris aliquet, at eleifend quam
-                        congue. Sed blandit pretium lorem, id semper magna accumsan id. Pellentesque vel placerat arcu,
-                        id
-                        bibendum risus. Duis laoreet laoreet urna varius rutrum. Morbi sit amet augue est. Vestibulum
-                        quis
-                        nibh nec dui vehicula volutpat. Integer convallis nisl eu eros luctus, eu rutrum felis
-                        ultricies.
-                        Phasellus vitae mattis risus. Cras maximus magna non elit ultrices iaculis. Vestibulum auctor
-                        posuere sem, sodales scelerisque est varius in.</p>
-                </div>
-                <div class="flex-1third side-padding">
-                    <p>Open SansLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-                        lacinia arcu purus, non sodales arcu congue ac. Ut sit amet leo mauris. Nam non lectus lacinia,
-                        aliquet odio vitae, ultricies ex. Pellentesque tempus dui ut mauris aliquet, at eleifend quam
-                        congue. Sed blandit pretium lorem, id semper magna accumsan id. Pellentesque vel placerat arcu,
-                        id
-                        bibendum risus. Duis laoreet laoreet urna varius rutrum. Morbi sit amet augue est. Vestibulum
-                        quis
-                        nibh nec dui vehicula volutpat. Integer convallis nisl eu eros luctus, eu rutrum felis
-                        ultricies.
-                        Phasellus vitae mattis risus. Cras maximus magna non elit ultrices iaculis. Vestibulum auctor
-                        posuere sem, sodales scelerisque est varius in.</p>
-                </div>
-            </section>
-        </div>
+
         <hr>
 
+        <div class="style-flexbox">
+            <h3>Grids</h3>
+            <div class="styleguide-project-grid">
+                <div class="styleguide-1half" style="padding: 1rem;">
+                    Grid 1/2 (50% - 500px on large screens)
+                </div>
+                <div class="styleguide-1half" style="padding: 1rem;">
+                    Grid 1/2 (50% - 500px on large screens)
+                </div>
+            </div>
+            <div class="styleguide-project-grid">
+                <div class="styleguide-1third" style="padding: 1rem;">
+                    Grid 1/3 (33.33%)
+                </div>
+                <div class="styleguide-1third" style="padding: 1rem;">
+                    Grid 1/3 (33.33%)
+                </div>
+                <div class="styleguide-1third" style="padding: 1rem;">
+                    Grid 1/3 (33.33%)
+                </div>
+            </div>
+            <div class="styleguide-project-grid">
+                <div class="styleguide-2third" style="padding: 1rem;">
+                    Grid 2/3 (66.66%)
+                </div>
+                <div class="styleguide-1third" style="padding: 1rem;">
+                    Grid 1/3 (33.33%)
+                </div>
+            </div>
+        </div>
+        
+        
+
+        <hr>
+
+        <div>
+            <h3>Lists</h3>
+            <ul style="font-family: 'Open Sans', sans-serif;">
+                <li>List Item 1</li>
+                <li>List Item 2</li>
+                <li>List Item 3</li>
+            </ul>
+        </div>
+
     </div>
-
-
-
-
-
-
 </body>
-
 </html>
