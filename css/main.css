@@ -504,7 +504,7 @@ li {
   padding: 0.5rem;
 }
 .list_item::before {
-  margin-right: 0.75rem;
+  margin-right: 0.2rem;
   color: #00b9ff;
 }
 .list_item-email:before {
